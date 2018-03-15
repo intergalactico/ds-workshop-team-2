@@ -61,9 +61,9 @@ storiesOf('Icon', module) // eslint-disable-line no-undef
     withInfo()(() => {
       return (
         <Box>
-          <Icon name='twitter' color='#000' isInverted/>
-          <Icon name='linkedin' color='#888888' isInverted />
-          <Icon name='github' color='#1b8ceb'isInverted />
+          <Icon name='twitter' color='#747d88' isInverted/>
+          <Icon name='linkedin' color='#747d88' isInverted />
+          <Icon name='github' color='#747d88' />
         </Box>
     );
   }));

@@ -161,11 +161,28 @@ export const Header3 = styled.h3`
   margin: 0;
 `;
 
+export const Header4 = styled.h4`
+  font-family: 'Open Sans';
+  font-size: 18px;
+  color: #353740;
+  font-weight: 700;
+  margin: 0;
+`;
+
+export const Header5 = styled.h5`
+  font-family: 'Open Sans';
+  font-size: 16px;
+  color: #00D6B2;
+  font-weight: 500;
+  margin: 0;
+`;
+
+
 export const P = styled.p`
   font-family: lato;
-  color: ${p => p.color};
-  font-size: 20px;
-  font-weight: 700;
+  color: #353740;
+  font-size: 16px;
+  font-weight: 400;
 `;
 
 /*
