@@ -23,8 +23,8 @@ const isIcon = ({ isIcon }) => {
 
 /* Default styles for all the buttons */
 export const Button = styled.div`
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-weight: 400;
+  font-family: lato;
+  font-weight: 550px;
   height: 2.40em;
   display: inline-flex;
   align-items: center;
@@ -33,7 +33,7 @@ export const Button = styled.div`
   cursor: pointer;
   outline: none;
   border: 1px solid;
-  border-color: transparent;
+  border-color: ${p => p.color};
   border-radius: 3px;
   box-sizing: border-box;
   line-height: 1.5;
@@ -42,7 +42,7 @@ export const Button = styled.div`
   text-decoration: none;
   background-color: ${p => p.color};
   color: ${p => p.textColor};
-  font-size: ${p => p.size ? p.size : '1rem'};
+  font-size: 20px;
   &:not(:last-child) {
     margin: 0 0.25em 0 0;
   }
