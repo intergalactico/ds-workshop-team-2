@@ -12,7 +12,7 @@ import Icon from 'Icon';
 import Newsletter from 'Newsletter';
 import Section, {SectionHeader, SectionText} from 'Section';
 import TeamMember from 'TeamMember';
-import Typography from 'Typography';
+import * as Typography from 'Typography';
 
 export {
   Box,
