@@ -54,8 +54,8 @@ const TeamMember = (props) => {
   return (
     <s.TeamMember>
       <img src={avatar} width="200" />
-      <ts.Header2>{name}</ts.Header2> 
-      <ts.Header3>{title}</ts.Header3> 
+      <ts.Header4>{name}</ts.Header4> 
+      <ts.Header5>{title}</ts.Header5> 
       {socialList}
       <s.P>{description}</s.P>
     </s.TeamMember>
