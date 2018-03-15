@@ -12,6 +12,7 @@ import Icon from 'Icon';
 import Newsletter from 'Newsletter';
 import Section, {SectionHeader, SectionText} from 'Section';
 import TeamMember from 'TeamMember';
+import Hero from 'Hero';
 import * as Typography from 'Typography';
 
 export {
@@ -26,4 +27,5 @@ export {
   SectionText,
   TeamMember,
   Typography,
+  Hero
 };
