@@ -6,16 +6,24 @@
  */
 import Box from 'Box';
 import Button from 'Button';
+import Footer from 'Footer';
+import Header from 'Header';
 import Icon from 'Icon';
+import Newsletter from 'Newsletter';
 import Section, {SectionHeader, SectionText} from 'Section';
+import TeamMember from 'TeamMember';
 import Typography from 'Typography';
 
 export {
   Box,
   Button,
+  Footer,
+  Header,
   Icon,
+  Newsletter,
   Section,
   SectionHeader,
   SectionText,
-  Typography
+  TeamMember,
+  Typography,
 };

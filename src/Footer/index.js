@@ -2,7 +2,7 @@ import React from "react";
 
 import * as s from "./styles.js";
 
-const Footer = props => {
+const Footer = () => {
   return (
     <s.Footer>
       <s.P>

@@ -7,7 +7,6 @@ import React from 'react'
 import Button from '../Button';
 
 import * as styles from './styles.js'
-import * as typography from '../Typography/styles.js'
 import colorset from '../Colors/colorset.js'
 
 
