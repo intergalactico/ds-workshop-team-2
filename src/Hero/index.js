@@ -9,7 +9,7 @@ import * as s from './styles.js'
  * 14th text etc. has a raised text snippet
  * @param {*} props 
  */
-const Th = (props) => {
+const Th = () => {
   return (
     <s.Th>
       th
@@ -19,9 +19,8 @@ const Th = (props) => {
 
 /**
  * <Hero /> component
- * @param {*} props 
  */
-const Hero = (props) => {
+const Hero = () => {
   return (
     <s.Hero>
       <s.HeroLogo src={logo} alt="DSConf logo" />
