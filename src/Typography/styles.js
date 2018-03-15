@@ -72,6 +72,13 @@ export const Header1 = styled.h1`
   color: ${p => p.color};
 `;
 
+export const Header1White = styled.h1`
+  font-family: futura-pt-bold;
+  font-size: 32px;
+  font-weight: 700;
+  color: ${p => p.color};
+`;
+
 export const Header2 = styled.h2`
   font-family: futura-pt-bold, sans-serif;
   font-size: 22px;
@@ -79,6 +86,16 @@ export const Header2 = styled.h2`
   line-height: 1.4em;
   margin: 0;
 `;
+
+export const Header2White = styled.h2`
+  font-family: futura-pt-bold, sans-serif;
+  font-size: 22px;
+  color: ${colors.white};
+  line-height: 1.4em;
+  margin: 0;
+`;
+
+
 
 export const Header3 = styled.h3`
   font-family: lato, sans-serif;
