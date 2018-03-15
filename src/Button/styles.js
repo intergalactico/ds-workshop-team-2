@@ -24,8 +24,8 @@ const isIcon = ({ isIcon }) => {
 /* Default styles for all the buttons */
 export const Button = styled.div`
   font-family: lato;
-  font-weight: 550px;
-  height: 2.40em;
+  font-weight: 500px;
+  height: 60px;
   display: inline-flex;
   align-items: center;
   justify-content: center;

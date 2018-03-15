@@ -68,8 +68,8 @@ import colors from '../Colors/colorset';
 export const Header1 = styled.h1`
   font-family: futura-pt-bold;
   font-size: 32px;
-  font-weight: 700px;
-  color: ${p => p.color}
+  font-weight: 700;
+  color: ${p => p.color};
 `;
 
 export const Header2 = styled.h2`
@@ -92,7 +92,7 @@ export const P = styled.p`
   font-family: lato;
   color: ${p => p.color};
   font-size: 20px;
-  font-weight: 700px;
+  font-weight: 700;
 `;
 
 /*
