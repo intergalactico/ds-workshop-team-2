@@ -39,4 +39,26 @@ storiesOf('TeamMember', module) // eslint-disable-line no-undef
         title="Director of Everything"
         avatar={avatar}
       />
+ )))
+ 
+  .add('no props',
+    withInfo()(() => (
+      <TeamMember 
+      avatar={avatar}
+      />
+ )))
+       
+  .add('full profile',
+    withInfo()(() => (
+      <TeamMember
+        name="Donald Duck"
+        title="Director of Everything"
+        social={{
+          twitter: 'donaldducknl',
+          linkedin: 'https://www.linkedin.com/company/the-walt-disney-company/'
+        }}        
+        avatar={avatar}
+        description="Description goes here"
+      />      
+      
   )));

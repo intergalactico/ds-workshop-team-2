@@ -42,7 +42,10 @@ const TeamMember = (props) => {
           <s.IconLink href={link} target="_blank"><Icon name={key}/></s.IconLink>
         </s.IconListItem>);
     }) : null;
+
   const socialList = social ? <s.IconList>{socialItems}</s.IconList> : null;
+
+  const { description } = props;
 
   /*
    * The container for the card is the TeamMember styled-component, which brings
@@ -51,9 +54,10 @@ const TeamMember = (props) => {
   return (
     <s.TeamMember>
       <img src={avatar} width="200" />
-      <ts.Header2>{name}</ts.Header2>
-      TODO: show title
+      <ts.Header2>{name}</ts.Header2> 
+      <ts.Header3>{title}</ts.Header3> 
       {socialList}
+      <s.P>{description}</s.P>
     </s.TeamMember>
   );
 };
@@ -62,7 +66,15 @@ TeamMember.propTypes = {
   name: string.isRequired,
   title: string.isRequired,
   avatar: string.isRequired,
+  description: string,
   social: object
+};
+
+TeamMember.defaultProps = {
+  name: 'Person Name',
+  title: 'Person Title',
+  avatar: string.isRequired,
+  description: 'Description goes here',
 };
 
 export default TeamMember;

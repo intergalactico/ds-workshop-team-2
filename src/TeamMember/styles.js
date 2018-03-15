@@ -30,8 +30,9 @@ export const IconList = styled.ul`
   color: ${colors.grey};
   font-size: 16px;
   margin: 0;
-  margin-top: 20px;
   padding: 0;
+  margin-top:8px;
+  margin-bottom: 8px;
   list-style: none;
 `;
 
@@ -44,3 +45,12 @@ export const IconLink = styled.a`
   color: ${colors.grey};
   text-decoration: none;
 `;
+
+export const P = styled.a`
+  color: ${colors.dark};
+  text-decoration: none;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;   
+`;
+
