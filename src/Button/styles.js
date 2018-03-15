@@ -40,7 +40,7 @@ export const Button = styled.div`
   position: relative;
   user-select: none;
   text-decoration: none;
-  background-color: ${p => p.color};
+  background-color: ${p => p.backgroundColor || 'transparent'};
   color: ${p => p.textColor};
   font-size: 20px;
   &:not(:last-child) {
